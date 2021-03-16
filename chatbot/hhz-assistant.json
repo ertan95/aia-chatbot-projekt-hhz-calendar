@@ -1,0 +1,5300 @@
+{
+  "intents": [
+    {
+      "intent": "AlexaStart",
+      "examples": [
+        {
+          "text": "start skill"
+        }
+      ],
+      "description": "Dieser Intent wird beim Starten des Alexa Skills ausgeführt."
+    },
+    {
+      "intent": "Begrüßung",
+      "examples": [
+        {
+          "text": "Guten Abend"
+        },
+        {
+          "text": "Guten Morgen"
+        },
+        {
+          "text": "Guten Tag"
+        },
+        {
+          "text": "Hallo"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Wer bist du?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Dokumente",
+      "examples": [
+        {
+          "text": "Dokumente"
+        },
+        {
+          "text": "Wie erhalte ich eine Immatrikulationsbescheinigung ?"
+        },
+        {
+          "text": "Wie erhalte ich einen Notenspiegel ?"
+        },
+        {
+          "text": "Wie erhalte ich eine Notenübersicht ?"
+        },
+        {
+          "text": "Wo bekomme ich eine Immatrikulationsbescheinigung ?"
+        },
+        {
+          "text": "Wo erhalte ich einen Leistungsnachweis ?"
+        },
+        {
+          "text": "Wo finde ich das Anmeldeformular für die Masterthesis ?"
+        },
+        {
+          "text": "Wo finde ich das Anmeldeformular für die Thesis ?"
+        },
+        {
+          "text": "Wo finde ich meine Dokumente zum downloaden ?"
+        },
+        {
+          "text": "Wo finde ich meine erweiterte Immatrikulationsbescheinigung für den BaFög Antrag ?"
+        },
+        {
+          "text": "wo finde ich meine Noten ?"
+        },
+        {
+          "text": "wo finde ich meine Prüfungsergebnisse"
+        }
+      ],
+      "description": "alle Dokumente, die für einen Studenten des Studiengang DBE relevant sein könnten"
+    },
+    {
+      "intent": "Einschreibung_Vorlesung",
+      "examples": [
+        {
+          "text": "Einschreibung"
+        },
+        {
+          "text": "Muss man sich für Kurse einschreiben ?"
+        },
+        {
+          "text": "Was muss ich tun, um an einer Vorlesung teilnehmen zu können ?"
+        },
+        {
+          "text": "wie melde ich mich für kurse an"
+        },
+        {
+          "text": "Wie schreibe ich mich für das Fach Digital Business Management ein ?"
+        },
+        {
+          "text": "wo melde ich mich für kurse an ?"
+        },
+        {
+          "text": "Wo schreibe ich mich für Kurse ein ?"
+        },
+        {
+          "text": "Wo sehe ich für welche Kurse ich mich eingeschrieben habe ?"
+        }
+      ],
+      "description": "alle Fragen rund zur Einschreibung für ein Fach"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ich habe mehrere Probleme und möchte wissen, ob du mir helfen kannst."
+        },
+        {
+          "text": "Ich möchte wissen, mit welchen Dingen du mir helfen kannst."
+        },
+        {
+          "text": "Warten Sie bitte einen Moment auf mich"
+        },
+        {
+          "text": "was kann ich dich alles fragen ?"
+        },
+        {
+          "text": "was kannst du?"
+        },
+        {
+          "text": "was kannst du alles ?"
+        },
+        {
+          "text": "Welche Arten von Fragen können Sie mir beantworten?"
+        },
+        {
+          "text": "Welche Art von Hilfe kann ich von Ihnen bekommen?"
+        },
+        {
+          "text": "wie kannst du mich unterstützen"
+        },
+        {
+          "text": "wie kannst du mir helfen ?"
+        },
+        {
+          "text": "Wie können Sie helfen, meine Probleme zu lösen?"
+        },
+        {
+          "text": "Wobei können Sie mir momentan helfen?"
+        },
+        {
+          "text": "womit kannst du mir helfen ?"
+        },
+        {
+          "text": "Zu welchen Themen kannst du mir helfen ?"
+        }
+      ],
+      "description": "Request Fähigkeiten des Bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Benutzer möchte mit einem menschlichen Kundendienstmitarbeiter sprechen"
+        },
+        {
+          "text": "Bitte helfen Sie mir bei der Verbindung zu einem Vertreter"
+        },
+        {
+          "text": "Bitte leiten Sie an eine Person weiter."
+        },
+        {
+          "text": "Bitte verbinden Sie mich mit einem menschlichen Vertreter, der auch fließendes Englisch spricht."
+        },
+        {
+          "text": "Das ist zu frustrierend, ich möchte mit einer echten lebenden Person sprechen."
+        },
+        {
+          "text": "Dies ist das dritte Mal, dass ich versucht habe, mit dir zu sprechen, und jetzt leitest du mich an einen Roboter weiter"
+        },
+        {
+          "text": "Es ist schon nach 22 Uhr, aber es gibt einen Notfall, kann ich mit einer echten Person sprechen?"
+        },
+        {
+          "text": "Haben Sie eine reale Person, mit der ich sprechen kann?"
+        },
+        {
+          "text": "Hallo Tom. Können Sie bitte meinen Anruf an einen menschlichen Agenten weiterleiten? Ich möchte direkt mit einem Menschen zu sprechen."
+        },
+        {
+          "text": "Ich möchte gerne dass mir ein Kundenbetreuer hilft"
+        },
+        {
+          "text": "Ich möchte mit dem Kundenservice chatten."
+        },
+        {
+          "text": "Ich möchte mit einem Kundendienstmitarbeiter sprechen. "
+        },
+        {
+          "text": "Ich möchte mit jemandem über eine betrügerische Handlung sprechen."
+        },
+        {
+          "text": "Ich versuche mit einer Person am Telefon zu sprechen, und nicht mit einer automatisierten Maschine. wie kann ich mit einer Person beim Kundendienst sprechen?"
+        },
+        {
+          "text": "ich will einen menschen sprechen"
+        },
+        {
+          "text": "Ich würde gerne mit einem richtigen Mitarbeiter sprechen, bitte."
+        },
+        {
+          "text": "Ja gib mir einen verdammten Agenten"
+        },
+        {
+          "text": "Lass mich mit einem menschlichen Agenten zu sprechen."
+        },
+        {
+          "text": "Stellen Sie mich zu einem aktiven Agenten durch."
+        },
+        {
+          "text": "welche Nummer muss ich wahlen um mit einem Menschen zu sprechen?"
+        }
+      ],
+      "description": "Fordern Sie einen menschlichen Agenten an."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "bis dann"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "Danke fuer deine Zeit."
+        },
+        {
+          "text": "dankeschön das war es"
+        },
+        {
+          "text": "Danke und bis bald."
+        },
+        {
+          "text": "Danke und habe einen schoenen Tag."
+        },
+        {
+          "text": "Das klappt, danke tschüss"
+        },
+        {
+          "text": "Du hast mir geholfen - danke."
+        },
+        {
+          "text": "Es war schön, mit Ihnen zu sprechen."
+        },
+        {
+          "text": "Ich bin fertig Watson, ich habe keine Fragen mehr"
+        },
+        {
+          "text": "Ich kann heute nicht so lange sprechen."
+        },
+        {
+          "text": "Ich melde mich noch einmal - aber jetzt muss ich zu einer Besprechung gehen."
+        },
+        {
+          "text": "Ich muss den Anruf beenden."
+        },
+        {
+          "text": "Ich muss jetzt schon weg."
+        },
+        {
+          "text": "Ich muss jetzt weg."
+        },
+        {
+          "text": "Ich rufe morgen wieder an. Tschüss."
+        },
+        {
+          "text": "Ich werde später wieder mit Ihnen reden"
+        },
+        {
+          "text": "Ich wünsche Ihnen einen schönen Tag!"
+        },
+        {
+          "text": "Machts gut und Auf Wiedersehen"
+        },
+        {
+          "text": "Nein ich denke das ist alles"
+        },
+        {
+          "text": "Sie haben alles beantwortet,was ich brauche. Das ist alles für jetzt"
+        },
+        {
+          "text": "tschüss"
+        },
+        {
+          "text": "Vielen Dank für Ihre Zeit. Es tut mir leid, aber ich muss gehen. Bis später!"
+        },
+        {
+          "text": "Wir können uns jetzt verabschieden"
+        }
+      ],
+      "description": "Beende die Konversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Bist Du heute nicht muede ?"
+        },
+        {
+          "text": "Bis wann musst Du heute in der Arbeit bleiben ?"
+        },
+        {
+          "text": "guten Tag, wie geht es Ihnen?"
+        },
+        {
+          "text": "Hallo Herman"
+        },
+        {
+          "text": "Hallo, wie ist Ihr Name?"
+        },
+        {
+          "text": "Hast Du heute viel zu tun?"
+        },
+        {
+          "text": "Hast Du schon Fruehstueck gehabt ?"
+        },
+        {
+          "text": "Ich hatte heute noch keinen Kaffe. Hattest Du einen ?"
+        },
+        {
+          "text": "Ich hoffe, dass Du gut geschlafen hast."
+        },
+        {
+          "text": "Ich möchte anfangen."
+        },
+        {
+          "text": "Ist deine Laune gut heute ?"
+        },
+        {
+          "text": "Sei tausendmal gegrüßt!"
+        },
+        {
+          "text": "Seit wann arbeitest du heute?"
+        },
+        {
+          "text": "Seit wann bist Du heute im Buero ?"
+        },
+        {
+          "text": "Sprechen wir kurz ?"
+        },
+        {
+          "text": "Was muss ich tun, um erneut zu starten"
+        },
+        {
+          "text": "Wie geht es Dir ? Hast Du viel zu tun ?"
+        }
+      ],
+      "description": "Begrüße den Bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Bist Du ein Mensch oder ein Roboter ?"
+        },
+        {
+          "text": "Bist Du ein Roboter ?"
+        },
+        {
+          "text": "Bist Du Watson ?"
+        },
+        {
+          "text": "Hast Du einen Namen oder bist Du nur ein Roboter ?"
+        },
+        {
+          "text": "Heisst Du irgendwie ?"
+        },
+        {
+          "text": "Ich möchte wissen, ob Du ein Mensch oder ein Roboter bist."
+        },
+        {
+          "text": "Kann ich dich mit einem Namen ansprechen?"
+        },
+        {
+          "text": "Kann ich Namen Watson benutzen ?"
+        },
+        {
+          "text": "Mit wemm spreche ich ?"
+        },
+        {
+          "text": "Sag mir, ob Du Mensch bist."
+        },
+        {
+          "text": "Soll ich Watson zu Dir sagen ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit dem Watson-Bot ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit einem Menschen ?"
+        },
+        {
+          "text": "Spreche ich mit einer Maschine ?"
+        },
+        {
+          "text": "Welchen Namen kann ich fuer Dich benutzen ?"
+        },
+        {
+          "text": "Wie heisst Du ? Bist Du in Mensch ?"
+        },
+        {
+          "text": "Wie heisst Du ? Hast Du ueberhaupt einen Namen ?"
+        },
+        {
+          "text": "Wie kann ich zu Dir sagen ?"
+        },
+        {
+          "text": "Wie lautet dein Name ?"
+        },
+        {
+          "text": "Wie soll ich dich nennen ? Hast Du einen Namen ?"
+        }
+      ],
+      "description": "Fragen Sie, ob Sie mit einem Menschen oder einem Bot sprechen."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Bist Du heute in der Laune für Witze?"
+        },
+        {
+          "text": "Erzähl mir einen Witz."
+        },
+        {
+          "text": "Kannst Du auch komisch sein?"
+        },
+        {
+          "text": "Kannst Du auch Witze erzaehlen ?"
+        },
+        {
+          "text": "Kannst Du Witze erzaehlen ?"
+        },
+        {
+          "text": "Kennst Du auch Witze ?"
+        },
+        {
+          "text": "Kennst Du viele Witze ?"
+        },
+        {
+          "text": "Magst Du Witze ?"
+        },
+        {
+          "text": "mir ist langweilig"
+        },
+        {
+          "text": "Sag mir etwas lustiges."
+        }
+      ],
+      "description": "Fordern Sie einen Witz an."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Benehme Dich bitte anders als jetzt. Mir gefällt es nicht"
+        },
+        {
+          "text": "Benutze bitte einen anderen Ton."
+        },
+        {
+          "text": "Deine Sprache ist meiner Meinung nach zu frech."
+        },
+        {
+          "text": "du bist blöd"
+        },
+        {
+          "text": "du kannst ja gar nix"
+        },
+        {
+          "text": "Ich habe Dich nicht verstanden - bitte langsam sprechen."
+        },
+        {
+          "text": "Ich mag deine Stimme nicht."
+        },
+        {
+          "text": "Ich will Dir nicht mehr zuhoeren."
+        },
+        {
+          "text": "Ich will nicht, dass Du solche Sachen sagst."
+        },
+        {
+          "text": "Kannst Du anders sprechen ?"
+        },
+        {
+          "text": "Koenntest Du bitte kuerzere Satze benutzen ?"
+        },
+        {
+          "text": "Könntest Du mit einem anderem Ton sprechen?"
+        },
+        {
+          "text": "Mir gefaehl nicht, was Du mir jetzt gesagt hast."
+        },
+        {
+          "text": "Mir gefaehlt nicht, was Du gesagt hast."
+        },
+        {
+          "text": "Mir gefaehlt nicht, wie Du mit mir sprichst."
+        },
+        {
+          "text": "Sprich bitte anders."
+        },
+        {
+          "text": "Wie kannst Du so was sagen."
+        }
+      ],
+      "description": "Ausdrückliche ungünstige Rückmeldung."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Danke fuer Deine Hilfe Watson."
+        },
+        {
+          "text": "Danke fuer Deine Muehe."
+        },
+        {
+          "text": "Danke fuer den guten Rat."
+        },
+        {
+          "text": "Danke fuer heute."
+        },
+        {
+          "text": "Danke für die Hilfe heute Watson."
+        },
+        {
+          "text": "Dankeschön"
+        },
+        {
+          "text": "Danke Watson."
+        },
+        {
+          "text": "Das hast Du ganz gut erklärt."
+        },
+        {
+          "text": "Das war ein super Rat"
+        },
+        {
+          "text": "Das, was Du herausgefunden hast, ist super toll."
+        },
+        {
+          "text": "Deine Gedanken sind cool."
+        },
+        {
+          "text": "Deine Hilfe heute war ganz gut."
+        },
+        {
+          "text": "Deine Hilfe war toll. Danke."
+        },
+        {
+          "text": "der war gut"
+        },
+        {
+          "text": "Du hast mir heute viel geholfen."
+        },
+        {
+          "text": "Du hast mir sehr gut geholfen, Watson."
+        },
+        {
+          "text": "Du warst heute gut."
+        },
+        {
+          "text": "Du warst super heute."
+        },
+        {
+          "text": "Heute hast Du mir wieder gholfen."
+        },
+        {
+          "text": "Tolle Hilfe heute."
+        },
+        {
+          "text": "Toll, was Du mir gesagt hast."
+        }
+      ],
+      "description": "Express positive Stimmung oder Dankbarkeit."
+    },
+    {
+      "intent": "Infos_Ansprechpartner",
+      "examples": [
+        {
+          "text": "Wen kann ich bei Fragen kontaktieren?"
+        },
+        {
+          "text": "Wen kann ich fragen?"
+        },
+        {
+          "text": "Wer ist der Ansprechpartner?"
+        },
+        {
+          "text": "Wer ist der Prüfungsbeauftragte?"
+        },
+        {
+          "text": "Wer ist der Studiendekan?"
+        },
+        {
+          "text": "Wo finde ich den Dekan?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Eignung",
+      "examples": [
+        {
+          "text": "Brauche ich einen Arbeitsvertrag, um mich in diesem Studiengang immatrikulieren zu können?"
+        },
+        {
+          "text": "Gibt es einen Numerus Clausus?"
+        },
+        {
+          "text": "welche Note brauche ich für die Zulassung?"
+        },
+        {
+          "text": "Welche Sprechkenntnisse werden vorausgesetzt?"
+        },
+        {
+          "text": "Welche Vorkenntnisse sollte ich haben?"
+        },
+        {
+          "text": "wie ist der NC?"
+        },
+        {
+          "text": "wie viele Credits benötige ich für die Zulassung?"
+        },
+        {
+          "text": "Wie viele ECTS werden durch den Bachelor benötigt?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Equipment",
+      "examples": [
+        {
+          "text": "Benötige ich einen Laptop?"
+        },
+        {
+          "text": "Brauche ich ein Notebook?"
+        },
+        {
+          "text": "welche Materialien"
+        },
+        {
+          "text": "welches equipment"
+        },
+        {
+          "text": "Wird ein Computer vorausgesetzt?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Fächer",
+      "examples": [
+        {
+          "text": "Was sind Projekte?"
+        },
+        {
+          "text": "Welche Fächer werden angeboten?"
+        },
+        {
+          "text": "Wie ist das Studium über die verschiedenen Semester aufgebaut?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Hochschule",
+      "examples": [
+        {
+          "text": "Gehört das HHZ zur Hochschule Reutlingen?"
+        },
+        {
+          "text": "Gibt es eine Mensa am HHZ?"
+        },
+        {
+          "text": "Was ist das Herman Hollerith Zentrum?"
+        },
+        {
+          "text": "Was ist das HHZ?"
+        },
+        {
+          "text": "Wo befindet sich das Herman Hollerith Zentrum?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Studentenausweis",
+      "examples": [
+        {
+          "text": "Was kann ich mit meinem Studentenausweis sonst noch tun?"
+        },
+        {
+          "text": "Was mache ich mit dem Studentenausweis?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Studiengang",
+      "examples": [
+        {
+          "text": "An wen richtet sich der Studiengang?"
+        },
+        {
+          "text": "Ist der Sutidengang akkreditiert?"
+        },
+        {
+          "text": "was heißt dbe?"
+        },
+        {
+          "text": "Was wird in dem Studium vermittelt?"
+        },
+        {
+          "text": "welche Fachbereiche umfasst das Studium?"
+        },
+        {
+          "text": "Welchen Titel erhalte ich durch den Abschluss?"
+        },
+        {
+          "text": "Wer ist Dekan von dbe"
+        },
+        {
+          "text": "Wie hoch sind die Studienkosten?"
+        },
+        {
+          "text": "Wie ist das Studium mit einer Vollzeitbeschäftigung vereinbar?"
+        },
+        {
+          "text": "Wie ist der Studienaufbau?"
+        },
+        {
+          "text": "Wie kann ich mich über das Studium informieren?"
+        },
+        {
+          "text": "wie lange ist die Regelstudienzeit?"
+        },
+        {
+          "text": "Wie viele Studienplätze gibt es?"
+        },
+        {
+          "text": "Wofür steht dbe?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Termine",
+      "examples": [
+        {
+          "text": "Gibt es eine Anwesenheitspflicht?"
+        },
+        {
+          "text": "Gibt es eine Präsenzpflicht?"
+        },
+        {
+          "text": "Ich bin berufstätig. Kann ich das Studium trotzdem machen?"
+        },
+        {
+          "text": "Ich bin in Vollzeit beschäftigt. Kann ich das Studium trotzdem machen?"
+        },
+        {
+          "text": "Kann ich die angebotenen Vorlesungen selbst wählen oder muss ich mich an den Plan halten?"
+        },
+        {
+          "text": "Wann finden Vorlesungen statt?"
+        },
+        {
+          "text": "Wann ist die Bewerbungsfrist?"
+        },
+        {
+          "text": "Wann kann begonnen werden?"
+        },
+        {
+          "text": "Wann wird über die Vorlesungs- und Prüfungstermine informiert?"
+        },
+        {
+          "text": "Was bedeutet Blockunterricht ?"
+        },
+        {
+          "text": "Welche Fristen gibt es?"
+        },
+        {
+          "text": "Werden die Vorlesungen der Uni Stuttgart jedes Semester angeboten?"
+        },
+        {
+          "text": "Wie ist das Studium mit einer Vollzeitbeschäftigung vereinbar?"
+        },
+        {
+          "text": "Wie ist die zeitliche Organisation?"
+        },
+        {
+          "text": "Wie viele Präsenztage gibt es pro Jahr?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infos_Vorgehen",
+      "examples": [
+        {
+          "text": "Wie kann ich mich bewerben?"
+        },
+        {
+          "text": "Wo kann ich mich bewerben?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Professor",
+      "examples": [
+        {
+          "text": "Die Vorlesung wird von wem gehalten"
+        },
+        {
+          "text": "Für welche Themen ist Professor"
+        },
+        {
+          "text": "Professor"
+        },
+        {
+          "text": "Was macht Professor Decker ?"
+        },
+        {
+          "text": "Welche Kurse gibt der Münch ?"
+        },
+        {
+          "text": "Welches Fach liest"
+        },
+        {
+          "text": "Welche Vorlesungen werden von Professor Münch gehalten ?"
+        },
+        {
+          "text": "Wie erreiche ich Professor"
+        },
+        {
+          "text": "Wie erreiche ich Professor Decker am besten ?"
+        }
+      ],
+      "description": "Alle Fragen rund um die einzelnen Professoren"
+    },
+    {
+      "intent": "Promotion",
+      "examples": [
+        {
+          "text": "Besteht ein Promotionsprogramm?"
+        },
+        {
+          "text": "Gibt es ein Promotionskolleg?"
+        },
+        {
+          "text": "Gibt es frei zugängliche Publikationen?"
+        },
+        {
+          "text": "ich will promovieren"
+        },
+        {
+          "text": "Ich will promovieren, wie mache ich das?"
+        },
+        {
+          "text": "Informationen zum Doktorat"
+        },
+        {
+          "text": "Kann ich am HHZ promovieren?"
+        },
+        {
+          "text": "Promotion"
+        },
+        {
+          "text": "Promotionsprogramm?"
+        },
+        {
+          "text": "publikation"
+        },
+        {
+          "text": "Publikationen"
+        },
+        {
+          "text": "Wie kann ich ein Doktorat machen?"
+        },
+        {
+          "text": "Wo finde ich die Forschnungsgruppen"
+        },
+        {
+          "text": "Wo finde ich die Forschungsgruppen?"
+        }
+      ],
+      "description": "If students are interested in doing a doctorate at HHZ"
+    },
+    {
+      "intent": "Prüfungen",
+      "examples": [
+        {
+          "text": "Muss ich mich zur Prüfung abmelden?"
+        },
+        {
+          "text": "Muss ich mich zur Prüfung anmelden?"
+        },
+        {
+          "text": "Welche Prüfungsformen gibt es ?"
+        },
+        {
+          "text": "Wie erhalte ich eine Übersicht über meine angemeldeten Prüfungen ?"
+        },
+        {
+          "text": "Wie funktioniert die Prüfungsabmeldung ?"
+        },
+        {
+          "text": "Wie funktioniert die Prüfungsanmeldung ?"
+        },
+        {
+          "text": "wie kann ich mich für prüfungen anmelden"
+        },
+        {
+          "text": "Wie melde ich mich für Prüfungen an ?"
+        },
+        {
+          "text": "Wieviele ECTS-Punkte erhalte ich pro Fach ?"
+        },
+        {
+          "text": "wo finde ich die prüfungsordnung"
+        },
+        {
+          "text": "Wo finde ich Prüfungsinformationen ?"
+        },
+        {
+          "text": "Wo melde ich mich zur Prüfung für Fächer der Universität Stuttgart an ?"
+        }
+      ],
+      "description": "alle generelle Fragen rund um das Thema Prüfungen"
+    },
+    {
+      "intent": "Systeme",
+      "examples": [
+        {
+          "text": "hisinone"
+        },
+        {
+          "text": "Was ist Campus PoRTal ?"
+        },
+        {
+          "text": "Was ist das Hochschul-Informations-Portal"
+        },
+        {
+          "text": "Wo finde ich das HIP"
+        },
+        {
+          "text": "Wo finde ich den Vorlesungskalender"
+        },
+        {
+          "text": "Wo finde ich HisInone"
+        },
+        {
+          "text": "Wo finde ich Relax"
+        }
+      ],
+      "description": "alle Systeme die Studenten nutzen könnten"
+    },
+    {
+      "intent": "Termine",
+      "examples": [
+        {
+          "text": "Kalender der Vorlesungen"
+        },
+        {
+          "text": "Wann beginnt das Semester?"
+        },
+        {
+          "text": "Wann beginnt der Prüfungsanmeldezeitraum"
+        },
+        {
+          "text": "Wann findet der nächste Projekttag statt"
+        },
+        {
+          "text": "wann findet die prüfung in statt"
+        },
+        {
+          "text": "Wann ist der nächste Projekttag ?"
+        },
+        {
+          "text": "wann ist die prüfung in se"
+        },
+        {
+          "text": "Wann ist die Prüfungsanmeldung"
+        },
+        {
+          "text": "Wann kann ich mich zur Masterarbeit anmelden ?"
+        },
+        {
+          "text": "Wann kann man sich für die Prüfungen anmelden ?"
+        },
+        {
+          "text": "Wann liegen die Prüfungsergebnisse vor ?"
+        },
+        {
+          "text": "Wann muss ich mich für das nächste Semester rückmelden ?"
+        },
+        {
+          "text": "Wann muss ich mich für Prüfungen anmelden"
+        },
+        {
+          "text": "Wann muss ich mich zur Abschlussarbeit anmelden ?"
+        },
+        {
+          "text": "Wann startet der prüfungsanmeldezeitraum"
+        },
+        {
+          "text": "Wann wird über die Prüfungstermine informiert ?"
+        },
+        {
+          "text": "Wann wird über die Vorlesungstermine informiert ?"
+        },
+        {
+          "text": "Wo finde ich den Studenten Vorlesungsplan?"
+        },
+        {
+          "text": "Wo finde ich die Prüfungstermine ?"
+        },
+        {
+          "text": "Wo sind die Vorlesungstermine zu finden ?"
+        },
+        {
+          "text": "Wo sind die Vorlesungstermine zu finden?"
+        },
+        {
+          "text": "Zu welchem Zeitpunkt steht der aktuelle Semesterkalender zur Verfügung?"
+        }
+      ],
+      "description": "Alle Fragen zu Terminen (Prüfungen, Rückmeldung, Vorlesungszeiten etc.) des Studiengang DBE"
+    },
+    {
+      "intent": "Urlaubssemester",
+      "examples": [
+        {
+          "text": "Antrag auf Beurlaubung"
+        },
+        {
+          "text": "Beurlaubung"
+        },
+        {
+          "text": "Kann ich das Studium unterbrechen ?"
+        },
+        {
+          "text": "Kann ich ein Urlaubssemester machen ?"
+        },
+        {
+          "text": "Urlaubssemester"
+        },
+        {
+          "text": "wie benantrage ich ein urlaubssemester ?"
+        },
+        {
+          "text": "wo finde ich den Antrag auf Beurlaubung"
+        }
+      ],
+      "description": "Fragen zum Thema Urlaubssemester"
+    },
+    {
+      "intent": "Vorlesungsfach",
+      "examples": [
+        {
+          "text": "kannst du mir mehr über das Fach Digital Buiness erzählen"
+        },
+        {
+          "text": "Mit welchen Themen beschäftigt man sich in der Vorlesung Entrepreneurship ?"
+        },
+        {
+          "text": "Vorlesungsfach"
+        },
+        {
+          "text": "Vorlesungsinhalte"
+        },
+        {
+          "text": "Was lernt man im Fach Digital Business ?"
+        },
+        {
+          "text": "Was macht man im Fach Artificial Intelligence ?"
+        },
+        {
+          "text": "Was macht man in der projektorientierten Aktivität ?"
+        },
+        {
+          "text": "Was macht man in Projekt 1 und Projekt 2 ?"
+        },
+        {
+          "text": "Was sind die Inhalte der Vorlesung Artificial Intelligence ?"
+        },
+        {
+          "text": "Was sind die Inhalte von Software Management ?"
+        },
+        {
+          "text": "welche fächer kann ich hören"
+        },
+        {
+          "text": "welche fächer werden angeboten"
+        },
+        {
+          "text": "welche vorlesungen werden angeboten"
+        },
+        {
+          "text": "welche Wahlfächer gibt es"
+        },
+        {
+          "text": "welche wahlfächer werden angeboten"
+        },
+        {
+          "text": "Wo finde ich Informationen zu den Projekten ?"
+        },
+        {
+          "text": "Womit beschäftigt man sich in Service Engineering ?"
+        }
+      ],
+      "description": "inhaltliche Fragen zu einem bestimmten Fach"
+    },
+    {
+      "intent": "Vorlesungsraum",
+      "examples": [
+        {
+          "text": "In welchem Raum finden die Vorlesungen statt ?"
+        },
+        {
+          "text": "In welchem Vorlesungssaal findet die Vorlesung statt ?"
+        },
+        {
+          "text": "In welchem Zimmer wird die Vorlesung gehalten ?"
+        },
+        {
+          "text": "Wo finde ich die Vorlesung AI ?"
+        },
+        {
+          "text": "Wo finden die Vorlesungen statt ?"
+        },
+        {
+          "text": "Wo und wann findet die Vorlesung statt ?"
+        },
+        {
+          "text": "Wo werden die Vorlesungen abgehalten ?"
+        }
+      ],
+      "description": "alle Fragen zum Thema in welchem Raum eine Vorlesung stattfindet"
+    },
+    {
+      "intent": "Vorlesungszeiten",
+      "examples": [
+        {
+          "text": "An welchem Tag findet die Vorlesung statt ?"
+        },
+        {
+          "text": "An welchem Tag ist die nächste Vorlesung ?"
+        },
+        {
+          "text": "Termine der Vorlesung"
+        },
+        {
+          "text": "Uhrzeit"
+        },
+        {
+          "text": "Um wieviel Uhr findet die Vorlesung statt ?"
+        },
+        {
+          "text": "Vorlesungstermine von"
+        },
+        {
+          "text": "Vorlesungszeiten"
+        },
+        {
+          "text": "Vorlesungszeiten von"
+        },
+        {
+          "text": "Wann finden die Vorlesungen statt ?"
+        },
+        {
+          "text": "Wann findet AI statt?"
+        },
+        {
+          "text": "Wann findet die nächste Digital Business Vorlesung statt ?"
+        },
+        {
+          "text": "Wann findet die nächste Veranstaltung statt?"
+        },
+        {
+          "text": "Wann findet die Vorlesung AI statt?"
+        },
+        {
+          "text": "Wann findet die Vorlesung statt ?"
+        },
+        {
+          "text": "Wann findet Digital Business statt?"
+        },
+        {
+          "text": "Wann findet Distributed statt?"
+        },
+        {
+          "text": "Wann findet IoT statt?"
+        },
+        {
+          "text": "Wann findet MESI statt?"
+        },
+        {
+          "text": "Wann findet Software Management statt?"
+        },
+        {
+          "text": "Wann findet statt"
+        },
+        {
+          "text": "Wann ist die nächste Vorlesung"
+        }
+      ],
+      "description": "Informationen zu den Vorlesungszeiten eines bestimmten Fachs"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Ansprechpartner",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kontakt",
+          "synonyms": [
+            "Anlaufstelle",
+            "Ansprechpartner",
+            "Fragen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungsbeauftragter",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "DBE",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abkürzung",
+          "synonyms": [
+            "dbe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Akkreditierung",
+          "synonyms": [
+            "akkreditiert"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dekan",
+          "synonyms": [
+            "Studiendekan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "der Studiengang",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fachbereiche",
+          "synonyms": [
+            "Gebiete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kompetenzen",
+          "synonyms": [
+            "Skills",
+            "vermittelt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Regelstudienzeit",
+          "synonyms": [
+            "Semesteranzahl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Studienplätze",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Titel",
+          "synonyms": [
+            "Abschluss",
+            "akademischer Grad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zielgruppe",
+          "synonyms": [
+            "an wen"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Dokumente",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Anmeldeformular",
+          "synonyms": [
+            "Anmeldung Thesis",
+            "Thesisanmeldeformular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BAföG Bescheinigung",
+          "synonyms": [
+            "bafög"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "erweiterte Studienbescheinigung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Immatrikulationsbescheinigung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leistungsnachweis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Notenspiegel",
+          "synonyms": [
+            "Noten",
+            "Prüfungsergebnisse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Notenübersicht",
+          "synonyms": [
+            "Noten",
+            "Prüfungsergebnisse"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Einschreibung",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Einschreibung",
+          "synonyms": [
+            "Kursanmeldung"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Electives_hhz",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Innovative Methods of Service Engineering",
+          "synonyms": [
+            "MESI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IoT",
+          "synonyms": [
+            "Internet of Things"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scientific Publishing",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Electives_stgt",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Data-Warehouse",
+          "synonyms": [
+            "Data Management & Analysis",
+            "Data-Mining ",
+            "OLAP- Technologien"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Diskrete Optimierung",
+          "synonyms": [
+            "Algorithmics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Loose Coupling and Message-based Applications",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Equipment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Laptop",
+          "synonyms": [
+            "Notebook"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Materialien",
+          "synonyms": [
+            "Ausrüstung",
+            "Utensilien"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Unterlagen",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Fach",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aufbau",
+          "synonyms": [
+            "Gestaltung",
+            "Studienaufbau"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Projekt",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Fach_enrolled",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "DBE11",
+          "synonyms": [
+            "Entrepreneur",
+            "Entrepreneurship"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE12",
+          "synonyms": [
+            "Digital Business"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE13",
+          "synonyms": [
+            "Software Management"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE14",
+          "synonyms": [
+            "Distributed",
+            "Distributed Systems",
+            "DS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE15",
+          "synonyms": [
+            "Projekt 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE22",
+          "synonyms": [
+            "BPM",
+            "BPMN",
+            "Business Process Management",
+            "DBE22"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE23",
+          "synonyms": [
+            "Service eng",
+            "Service Engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE24",
+          "synonyms": [
+            "AI",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBE25",
+          "synonyms": [
+            "Projekt 2"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "HHZ",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Beschreibung",
+          "synonyms": [
+            "Abkürzung hhz",
+            "Herman Hollerith Zentrum",
+            "hhz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hochschule",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mensa",
+          "synonyms": [
+            "Essensmöglichkeit",
+            "Kantine"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Informationen",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Anlaufstelle",
+          "synonyms": [
+            "Informationsquelle",
+            "informieren",
+            "Quelle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Partner",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Universität Stuttgart",
+          "synonyms": [
+            "Uni Stuttgart"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Professor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aiello",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Decker",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hertweck",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kinitzki",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leymann",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Münch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rossmann",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Zimmermann",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Promotion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doktorat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Forschungsgruppen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Promotion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Promotionskolleg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Promotionsprogramm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Publikation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Publikationen",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Prüfungen",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Prüfungsabmeldung",
+          "synonyms": [
+            "abmelden",
+            "Abmeldung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungsanmeldung",
+          "synonyms": [
+            "anmelden",
+            "Anmeldung"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungsinformationen",
+          "synonyms": [
+            "Prüfungsinfos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungsordnung",
+          "synonyms": [
+            "Studienordnung",
+            "StuPro"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Semester",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Semesterbeginn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sommersemester",
+          "synonyms": [
+            "Sommer",
+            "Sose"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wintersemester",
+          "synonyms": [
+            "Winter",
+            "Wise"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Studentenausweis",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Studentenausweis",
+          "synonyms": [
+            "Ausweis"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Studienkosten",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Studiengebühren",
+          "synonyms": [
+            "Gebühren",
+            "Kosten",
+            "Semesterbeitrag",
+            "Studienkosten"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Systeme",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "HIP",
+          "synonyms": [
+            "Hochschul-Informations-Portal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HisInone",
+          "synonyms": [
+            "Campus PoRTal",
+            "His",
+            "Hisinone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Relax",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vorlesungskalender",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Termin",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Anwesenheitspflicht",
+          "synonyms": [
+            "Präsenzpflicht"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Blockunterricht",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fristen",
+          "synonyms": [
+            "Bewerbungsfrist",
+            "Datum",
+            "Deadline",
+            "Frist"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "jedes Semester",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reihenfolge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Startsemester",
+          "synonyms": [
+            "Anfang",
+            "begonnen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Termin",
+          "synonyms": [
+            "Kalender",
+            "Vorlesungs- und Prüfungstermine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Veranstaltungstage",
+          "synonyms": [
+            "Anzahl Vorlesungen",
+            "zeitliche Organisation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vollzeitbeschäftigung",
+          "synonyms": [
+            "Arbeit",
+            "Beruf",
+            "berufstätig",
+            "Vollzeit"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Termine_enrolled",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abschlussarbeit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kalender",
+          "synonyms": [
+            "Semesterkalender"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Klausurtermine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Masterarbeit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Projekttag",
+          "synonyms": [
+            "Projekt",
+            "Projekt 1",
+            "Projekt1",
+            "Projekt 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungsanmeldezeitraum",
+          "synonyms": [
+            "Prüfungsanmeldefrist"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prüfungstermine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rückmeldung",
+          "synonyms": [
+            "rückmelden",
+            "Rückmeldezeitraum",
+            "zurückmelden"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Semesterstart",
+          "synonyms": [
+            "Beginn",
+            "Semesterbeginn",
+            "Studienbeginn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vorlesungstermine",
+          "synonyms": [
+            "Vorlesungsplan"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Urlaubssemester",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Beurlaubung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Unterbrechung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Urlaubssemester",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Vorgehen",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Website",
+          "synonyms": [
+            "Homepage",
+            "online"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Vorkenntnisse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Arbeitsvertrag",
+          "synonyms": [
+            "Vertrag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Credits",
+          "synonyms": [
+            "ECTS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NC",
+          "synonyms": [
+            "Durchschnitt",
+            "Note",
+            "Notendurchschnitt",
+            "Numerus Clausus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sprachkenntnisse",
+          "synonyms": [
+            "Sprachen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vorkenntnisse",
+          "synonyms": [
+            "Kenntnisse",
+            "Skills",
+            "Voraussetzungen"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Vorlesungsraum",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "119",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HHZ 026",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HHZ 027",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HHZ 105",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ort",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Raum",
+          "synonyms": [
+            "Zimmer, Vorlesungssaal, HHZ 026, HHZ 027"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.appdomain.cloud/api/v1/web/hhzStud_AIA_projekt/default/public-google-cal-hhz.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Andernfalls",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich habe Sie leider nicht verstanden. Bitte formulieren Sie Ihre Aussage neu."
+              },
+              {
+                "text": "Können Sie Ihre Aussage anders formulieren? Ich verstehe nicht ganz, was Sie meinen."
+              },
+              {
+                "text": "Ich habe nicht verstanden, was Sie meinen. Wonach suchen Sie ?"
+              },
+              {
+                "text": "Ich lerne noch täglich dazu..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Andernfalls",
+      "previous_sibling": "node_10_1609777567595",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1611076245590",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1611076245592",
+      "previous_sibling": "handler_8_1611076245592"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614622714648",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1614622714648",
+      "previous_sibling": "handler_9_1614622714648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614624968903",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1614624968905",
+      "previous_sibling": "handler_1_1614624968905"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Mich freut Ihr Interesse an der Wissenschaft! Hier haben Sie eine kleine Auswahl an Wahlmöglichkeiten:",
+            "options": [
+              {
+                "label": "Forschungsgruppen",
+                "value": {
+                  "input": {
+                    "text": "Forschungsgruppen"
+                  }
+                }
+              },
+              {
+                "label": "Publikationen",
+                "value": {
+                  "input": {
+                    "text": "Publikationen"
+                  }
+                }
+              },
+              {
+                "label": "Promotionsprogramm",
+                "value": {
+                  "input": {
+                    "text": "Promotionsprogramm"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1609924514086",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1609924514098",
+      "previous_sibling": "handler_2_1609924514098"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614624968903",
+      "context": {
+        "Fach": "@Fach_enrolled"
+      },
+      "conditions": "@Fach_enrolled",
+      "event_name": "input",
+      "dialog_node": "handler_1_1614624968905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614624994353",
+      "context": {
+        "Electives_hhz": "@Electives_hhz"
+      },
+      "conditions": "@Electives_hhz",
+      "event_name": "input",
+      "dialog_node": "handler_1_1614624994354"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1609924514086",
+      "context": {
+        "Promotion": "@Promotion"
+      },
+      "conditions": "@Promotion",
+      "event_name": "input",
+      "dialog_node": "handler_2_1609924514098"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1610484056418",
+      "context": {
+        "Vorlesungsfach": "#Vorlesungsfach"
+      },
+      "conditions": "#Vorlesungsfach",
+      "event_name": "input",
+      "dialog_node": "handler_2_1610484056462"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1614620252136",
+      "context": {
+        "Fach": "@Electives_stgt"
+      },
+      "conditions": "@Electives_stgt",
+      "event_name": "input",
+      "dialog_node": "handler_3_1614620252136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614623712049",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1614623712076",
+      "previous_sibling": "handler_9_1614623712076"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1614624055133",
+      "context": {
+        "Electives_hhz": "@Electives_hhz"
+      },
+      "conditions": "@Electives_hhz",
+      "event_name": "input",
+      "dialog_node": "handler_3_1614624055133"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Welchen Professor meinten Sie ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1608558172698",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1608558172720",
+      "previous_sibling": "handler_9_1608558172720"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1614620252136",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1614620252136",
+      "previous_sibling": "handler_3_1614620252136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1614624055133",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1614624055133",
+      "previous_sibling": "handler_3_1614624055133"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614626295320",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1614626295322",
+      "previous_sibling": "handler_5_1614626295322"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1609840432102",
+      "context": {
+        "Systeme": "@Systeme"
+      },
+      "conditions": "@Systeme",
+      "event_name": "input",
+      "dialog_node": "handler_5_1609840432130"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mich freut dein Interesse an der Wissenschaft! Sämtliche Information rund um das Thema Promotion findest du unter folgendem <a  target=\"_blank href=\"https://www.hhz.de/de/forschung/\">Link: Promotion </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1609924514086",
+      "conditions": "@Promotion:Promotion",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1609931026916",
+      "previous_sibling": "handler_1_1609924514098"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614626295320",
+      "context": {
+        "Electives_stgt": "@Electives_stgt"
+      },
+      "conditions": "@Electives_stgt",
+      "event_name": "input",
+      "dialog_node": "handler_5_1614626295322"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614626548650",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1614626548651",
+      "previous_sibling": "handler_9_1614626548651"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Nach welchen Dokumenten suchen Sie ?",
+            "options": [
+              {
+                "label": "Notenübersicht oder Notenspiegel",
+                "value": {
+                  "input": {
+                    "text": "Notenübersicht"
+                  }
+                }
+              },
+              {
+                "label": "Immatrikulationsbescheinigung oder BAföG Bescheinigung",
+                "value": {
+                  "input": {
+                    "text": "Immatrikulationsbescheinigung"
+                  }
+                }
+              },
+              {
+                "label": "Anmeldeformular für Thesis",
+                "value": {
+                  "input": {
+                    "text": "Anmeldeformular"
+                  }
+                }
+              },
+              {
+                "label": "Dokumente zu einem Fach",
+                "value": {
+                  "input": {
+                    "text": "Fach"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_9_1609839360470",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1609839360493",
+      "previous_sibling": "handler_8_1609839360493"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_10_1610484056418",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1610484056462",
+      "previous_sibling": "handler_2_1610484056462"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1614624994353",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1614624994354",
+      "previous_sibling": "handler_1_1614624994354"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1609839360470",
+      "context": {
+        "Dokumente": "@Dokumente"
+      },
+      "conditions": "@Dokumente",
+      "event_name": "input",
+      "dialog_node": "handler_8_1609839360493"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1611076245590",
+      "context": {
+        "Pruefungen": "@Prüfungen"
+      },
+      "conditions": "@Prüfungen",
+      "event_name": "input",
+      "dialog_node": "handler_8_1611076245592"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1608558172698",
+      "context": {
+        "Professor": "@Professor"
+      },
+      "conditions": "@Professor",
+      "event_name": "input",
+      "dialog_node": "handler_9_1608558172720"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Welches System suchen Sie ?",
+            "options": [
+              {
+                "label": "Relax, die online Lern- und Lehrplatform",
+                "value": {
+                  "input": {
+                    "text": "Relax"
+                  }
+                }
+              },
+              {
+                "label": "Vorlesungskalender mit allen Terminen",
+                "value": {
+                  "input": {
+                    "text": "Vorlesungskalender"
+                  }
+                }
+              },
+              {
+                "label": "HIP, Hochschulinformationsportal zur Prüfungsanmeldung",
+                "value": {
+                  "input": {
+                    "text": "HIP"
+                  }
+                }
+              },
+              {
+                "label": "HisInone, das Campus Portal für Immatrikulationsbescheinigungen",
+                "value": {
+                  "input": {
+                    "text": "HisInone"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1609840432102",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1609840432130",
+      "previous_sibling": "handler_5_1609840432130"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614622714648",
+      "context": {
+        "Fach": "@Electives_hhz"
+      },
+      "conditions": "@Electives_hhz",
+      "event_name": "input",
+      "dialog_node": "handler_9_1614622714648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1614623712049",
+      "context": {
+        "Fach": "@Fach_enrolled"
+      },
+      "conditions": "@Fach_enrolled",
+      "event_name": "input",
+      "dialog_node": "handler_9_1614623712076"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1614626548650",
+      "context": {
+        "Electives_stgt": "@Electives_stgt"
+      },
+      "conditions": "@Electives_stgt",
+      "event_name": "input",
+      "dialog_node": "handler_9_1614626548651"
+    },
+    {
+      "type": "standard",
+      "title": "Bewerbungsfristen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bewerbungen sind via <a  target=\"_blank\" href=$URL>Bewerbungsportal</a> an die Hochschule Reutlingen zu richten. Dabei gelten folgende Fristen: $Beginn_SoSe, $Beginn_WiSe"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "URL": "https://hisinone.reutlingen-university.de/",
+        "Beginn_SoSe": "15.01 (Beginn im Sommersemester)",
+        "Beginn_WiSe": "15.07 (Beginn im Wintersemester)"
+      },
+      "conditions": "@Termin:Fristen",
+      "dialog_node": "node_10_1607786131276",
+      "previous_sibling": "node_4_1607786304485"
+    },
+    {
+      "type": "standard",
+      "title": "Reihenfolge Vorlesungen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Die vorgegebene Aufteilung ist nicht verpflichtend und kann frei eingeteilt werden. Allerdings gilt es zu beachten, welche Fächer nur jährlich angeboten werden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "conditions": "@Termin:Reihenfolge",
+      "dialog_node": "node_10_1607787708049",
+      "previous_sibling": "node_6_1607787645530"
+    },
+    {
+      "type": "standard",
+      "title": "Projekte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bei den Projekten handelt es sich um Jahresprojekte. Präsentationen finden am Projekttag statt. Alle Details finden Sie im Projektleitfaden auf der <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607788444416",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "@Fach:Projekt",
+      "dialog_node": "node_10_1607788601135",
+      "previous_sibling": "node_3_1607788543802"
+    },
+    {
+      "type": "standard",
+      "title": "Studienplätze",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es gibt $Anzahl Studienplätze pro Semester."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Anzahl": "25"
+      },
+      "conditions": "@DBE:Studienplätze",
+      "dialog_node": "node_10_1607789321374",
+      "previous_sibling": "node_1_1607789126202"
+    },
+    {
+      "type": "standard",
+      "title": "Studienkosten",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In Baden-Württemberg sind die allgemeinen Studiengebühren in Höhe von 500 Euro je Semester zum Sommersemester 2012 abgeschafft worden. Es wird jedoch $Beitrag erhoben."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "context": {
+        "Beitrag": "jedes Semester ein Beitrag in Höhe von ca. EUR 180"
+      },
+      "conditions": "@Studienkosten",
+      "dialog_node": "node_10_1607789931656",
+      "previous_sibling": "node_9_1607790283957"
+    },
+    {
+      "type": "standard",
+      "title": "Akkreditierung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Studiengang ist akkreditiert bis $Akk."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Akk": "31.03.2028"
+      },
+      "conditions": "@DBE:Akkreditierung",
+      "dialog_node": "node_10_1607790058225",
+      "previous_sibling": "node_2_1607789741342"
+    },
+    {
+      "type": "standard",
+      "title": "General Ending - Verabschiedung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Schön, dass ich Ihnen helfen konnte. Ich wünsche Ihnen noch einen schönen Tag."
+              },
+              {
+                "text": "Tschüss und bis bald"
+              },
+              {
+                "text": "Noch einen schönen Tag und bis bald."
+              },
+              {
+                "text": "Auf Wiedersehen."
+              },
+              {
+                "text": "Schön, dass Sie da waren, bis bald."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1609777567595",
+      "previous_sibling": "node_3_1609779518417"
+    },
+    {
+      "type": "folder",
+      "title": "Bewerbungsprozess",
+      "conditions": "#Infos_Eignung || #Infos_Termine || #Infos_Vorgehen",
+      "dialog_node": "node_1_1607353492155",
+      "previous_sibling": "node_3_1609774691197"
+    },
+    {
+      "type": "standard",
+      "title": "Sprachkenntnisse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sie benötigen Nachweise für $Sprachkenntnisse. Diese sind für gewöhnlich durch ein Abitur erfüllt. Kontaktieren Sie eventuell den Studiendekan."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "Sprachkenntnisse": "englisch Niveau B2"
+      },
+      "conditions": "@Vorkenntnisse:Sprachkenntnisse",
+      "dialog_node": "node_1_1607355079447",
+      "previous_sibling": "node_3_1607353600259"
+    },
+    {
+      "type": "standard",
+      "title": "Blockunterricht",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unter Blockunterricht versteht man Unterricht, der in zusammenhängenden Zeiträumen von mehreren Tagen erfolgt."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "conditions": "@Termin:Blockunterricht",
+      "dialog_node": "node_1_1607787413849"
+    },
+    {
+      "type": "standard",
+      "title": "Fachbereiche",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das Studium umnfasst die Fachbereiche $Fachbereiche. Es werden $Kompetenzen vermittelt."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Kompetenzen": "strategisches und technisches Know-how für die umfassende und durchdringende Digitalisierung von Unternehmen ingenieurwissenschaftliche Methoden für IT-basierte Wertschöpfungsprozesse  digitale Kompetenzen in innovativen Kernthemen der Wirtschaftsinformatik",
+        "Fachbereiche": "Wirtschaftsinformatik mit 70% IT und 30% BWL"
+      },
+      "conditions": "@DBE:Fachbereiche || @DBE:Kompetenzen",
+      "dialog_node": "node_1_1607789126202"
+    },
+    {
+      "type": "frame",
+      "title": "Prüfungen",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Prüfungen",
+      "dialog_node": "node_1_1608558998984",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1608557785000"
+    },
+    {
+      "type": "frame",
+      "title": "Termine",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Termine",
+      "dialog_node": "node_1_1608560258129",
+      "previous_sibling": "node_6_1608559129950"
+    },
+    {
+      "type": "frame",
+      "title": "Projekttag",
+      "parent": "node_1_1608560258129",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "subject": "Projekttag"
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Termine_enrolled:Projekttag",
+      "dialog_node": "node_1_1609769103049",
+      "previous_sibling": "node_8_1608563268123"
+    },
+    {
+      "type": "frame",
+      "title": "Promotionsprogramm",
+      "parent": "node_7_1607785886857",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Promotion || @Promotion",
+      "dialog_node": "node_1_1609923791980",
+      "previous_sibling": "node_10_1607789931656"
+    },
+    {
+      "type": "standard",
+      "title": "DBE Abkürzung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "DBE steht für Digital Business Engineering."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "conditions": "@DBE:Abkürzung",
+      "dialog_node": "node_1_1610037062929",
+      "previous_sibling": "node_6_1609407941992"
+    },
+    {
+      "type": "frame",
+      "title": "Vorlesungszeiten Electives STGT",
+      "output": {},
+      "parent": "node_4_1608545606530",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "calendar": "stgt",
+            "elective": "$Fach"
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Electives_stgt",
+      "dialog_node": "node_1_1614620252130",
+      "previous_sibling": "node_4_1608565052409"
+    },
+    {
+      "type": "frame",
+      "title": "WahlfachHHZ",
+      "output": {},
+      "parent": "node_4_1608565052409",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "elective": "$Electives_hhz"
+          },
+          "result_variable": "webhook_result_6"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Electives_hhz",
+      "dialog_node": "node_1_1614624055131",
+      "previous_sibling": "node_3_1614623644657"
+    },
+    {
+      "type": "frame",
+      "title": "Wahlfach Uni Stgt",
+      "output": {},
+      "parent": "node_4_1608565052409",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "calendar": "stgt",
+            "elective": "$Electives_stgt"
+          },
+          "result_variable": "webhook_result_7"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Electives_stgt",
+      "dialog_node": "node_1_1614626482099",
+      "previous_sibling": "node_1_1614624055131"
+    },
+    {
+      "type": "standard",
+      "title": "Titel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durch den Abschluss des Studiums erhält man den akademischen Titel $Titel "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Titel": "Master of Science (M. Sc.)"
+      },
+      "conditions": "@DBE:Titel",
+      "dialog_node": "node_2_1607789741342",
+      "previous_sibling": "node_4_1607789670103"
+    },
+    {
+      "type": "frame",
+      "title": "Professor",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Professor",
+      "dialog_node": "node_2_1608557785000",
+      "previous_sibling": "node_7_1608557561143"
+    },
+    {
+      "type": "standard",
+      "title": "Urlaubssemester",
+      "parent": "node_4_1608545606530",
+      "actions": [
+        {
+          "name": "Urlaubssemester",
+          "type": "assistant_action",
+          "parameters": {},
+          "result_variable": "action_result_5",
+          "assistant_action_settings": {
+            "use_global_variables": true,
+            "lookup_action_by_title": true
+          }
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Urlaubssemester",
+      "dialog_node": "node_2_1609693740617",
+      "previous_sibling": "node_7_1614622714644"
+    },
+    {
+      "type": "standard",
+      "title": "General_negative_feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es tut mir leid, wenn ich Sie verärgert haben. Versuchen wir es nochmal von vorne. Wie kann ich Ihnen helfen ?"
+              },
+              {
+                "text": "Oh das tut mir leid, ich wollte Sie nicht verärgern. Bitte lassen Sie es uns nochmal probieren. Wie kann ich Ihnen helfen ?"
+              },
+              {
+                "text": "Entschuldigen Sie bitte, das war nicht meine Absicht. Bitte beginnen wir nochmal von vorne. Wie kann ich Ihnen helfen ?"
+              },
+              {
+                "text": "Das ist nicht wirklich nett, aber gut, versuchen wir es nochmal ? Wie kann ich Ihnen helfen ?"
+              },
+              {
+                "text": "Oh das ist ärgerlich aber vielleicht stellen Sie mir die Frage nochmal und formulieren Sie diese anders. Fragen Sie mich ansonsten einfach, was ich für Sie tun kann."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_2_1609779756115",
+      "previous_sibling": "node_4_1608545606530"
+    },
+    {
+      "type": "standard",
+      "title": "Credits",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Grundsätzlich werden $Credits benötigt. Bewerber mit $Credits_low können jedoch 30 ECTS durch eine Angleichungsleistung erwerben."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "Credits": "210 ECTS",
+        "Credits_low": "180 ECTS"
+      },
+      "conditions": "@Vorkenntnisse:Credits",
+      "dialog_node": "node_3_1607353600259",
+      "previous_sibling": "node_7_1607353308766"
+    },
+    {
+      "type": "standard",
+      "title": "Mensa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Am Campus Böblingen existiert leider keine Mensa, allerdings gibt es zahlreiche Alternativen in der näheren Umgebung."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1607786753323",
+      "conditions": "@HHZ:Mensa",
+      "dialog_node": "node_3_1607786958788",
+      "previous_sibling": "response_2_1608482134865"
+    },
+    {
+      "type": "standard",
+      "title": "Vorgehen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wenn das Bewerbungsportal geöffnet ist, können Sie sich über die <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs bewerben."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "#Infos_Vorgehen || @Vorgehen",
+      "dialog_node": "node_3_1607787984866",
+      "previous_sibling": "node_4_1607787149410"
+    },
+    {
+      "type": "standard",
+      "title": "Wahlfach",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das Wahlfachangebot wird jedes Semester überprüft. Die Professoren entscheiden über die entsprechenden Vorlesungsthemen. Auf der <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs wird ein Modulhandbuch zu den Wahlfächern zur Verfügung gestellt."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607788444416",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "@Wahlfach:Angebot",
+      "dialog_node": "node_3_1607788543802"
+    },
+    {
+      "type": "standard",
+      "title": "DBE",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@DBE",
+      "dialog_node": "node_3_1607789105167",
+      "previous_sibling": "node_9_1607788444416"
+    },
+    {
+      "type": "frame",
+      "title": "Dokumente",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Dokumente",
+      "dialog_node": "node_3_1608556997488"
+    },
+    {
+      "type": "standard",
+      "title": "Abschlussarbeit_Sommersemester",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Für das Sommersemester ist ein Bearbeitungszeitraum 01.03 bis 31.08. mit der Abgabe zum 31.08. massgeblich. Die Anmeldung muss somit vor diesem Zeitraum erfolgen. Verwenden Sie dazu das <a  target=\"_blank\" href=\"https://www.reutlingen-university.de/im-studium/studium-organisieren/pruefungen/abschlussarbeit/\">Anmeldeformular Thesis</a>  welches beim Prüfungsbeauftragten einzureichen ist."
+              },
+              {
+                "text": "Alle weiteren Informationen zum Thema Abschlussarbeit finden Sie im <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/hsrt_informatik_DBE_ThesisLeitfaden.pdf\">Thesisleitfaden</a> Thesis-Leitfaden"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Semester:Sommersemester",
+      "dialog_node": "node_3_1608563015487",
+      "previous_sibling": "node_6_1608562566848"
+    },
+    {
+      "type": "standard",
+      "title": "General_jokes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich hab gerade den DJ angerufen...Er hat aufgelegt..."
+              },
+              {
+                "text": "Was macht ein Pirat am Computer ? ...Er drückt die Enter-Taste !"
+              },
+              {
+                "text": "Wie kommt ein betrunkener Virologe nacht Hause ? ...Auf allen Viren !"
+              },
+              {
+                "text": "Warum summen Bienen ? ...Weil sie den Text nicht kennen !"
+              },
+              {
+                "text": "Was sagt der große Stift zum kleinen Stift ? ...Wachsmalstift"
+              },
+              {
+                "text": "Ich wollte Spiderman anrufen, aber er hatte kein Netz..."
+              },
+              {
+                "text": "Was sagt ein origami-Lehrer zu seinem Schüler? ...Das kannste knicken!"
+              },
+              {
+                "text": "Was ist weiß und guckt durchs Schlüsselloch ? ...Ein Spannbettlaken"
+              },
+              {
+                "text": "Informatiker schneiden keine Zwiebeln. Sie hacken sie."
+              },
+              {
+                "text": "Licht ist schneller als Schall, darum wirken manche Menschen intelligent bis sie anfangen zu sprechen..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_3_1609774691197",
+      "previous_sibling": "node_8_1609778289834"
+    },
+    {
+      "type": "standard",
+      "title": "General_Connect_to_Agent",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "transfer_info": {
+              "target": {}
+            },
+            "agent_available": {
+              "message": ""
+            },
+            "agent_unavailable": {
+              "message": ""
+            }
+          },
+          {
+            "values": [
+              {
+                "text": "Bitte kontaktieren Sie <a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#christian-decker\">Professor Decker</a> den Studiendekan, er kann Ihnen bestimmt weiterhelfen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_3_1609779518417",
+      "previous_sibling": "node_4_1609779110508"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Ansprechpartner ist Ansprechpartner für den Studiengang Digital Business Engineering. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "context": {
+        "": "",
+        "Ansprechpartner": "Prof. Decker"
+      },
+      "conditions": "@Ansprechpartner:Kontakt",
+      "dialog_node": "node_3_1613939457811",
+      "previous_sibling": "node_8_1613938332471"
+    },
+    {
+      "type": "frame",
+      "title": "Pflichtmodule",
+      "parent": "node_4_1608565052409",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "subject": "$Fach"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Fach_enrolled",
+      "dialog_node": "node_3_1614623644657",
+      "previous_sibling": "slot_9_1614626295320"
+    },
+    {
+      "type": "standard",
+      "title": "Andere Vorkenntnisse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es werden hauptsächlich $Kenntnisse benötigt, welche aber durch einen von der Hochschule zur Verfügung gestellten Udemy-Kurs ausgebaut werden können."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "Kenntnisse": "Programmierkenntnisse in Python, optional Java"
+      },
+      "conditions": "@Vorkenntnisse:Vorkenntnisse",
+      "dialog_node": "node_4_1607786304485",
+      "previous_sibling": "node_1_1607355079447"
+    },
+    {
+      "type": "standard",
+      "title": "Startsemester",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es kann im $Beginn begonngen werden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "Beginn": "Wintersemeser und Sommersemester"
+      },
+      "conditions": "@Termin:Startsemester",
+      "dialog_node": "node_4_1607787149410",
+      "previous_sibling": "node_8_1607786462267"
+    },
+    {
+      "type": "standard",
+      "title": "Vorlesungen und Prüfungstermine",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Termin",
+      "dialog_node": "node_4_1607787284058",
+      "previous_sibling": "node_8_1607786753323"
+    },
+    {
+      "type": "standard",
+      "title": "Regelstudienzeit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Regelstudienzeit beträgt $Regelstudienzeit "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Regelstudienzeit": "3 Semester"
+      },
+      "conditions": "@DBE:Regelstudienzeit",
+      "dialog_node": "node_4_1607789670103",
+      "previous_sibling": "node_10_1607789321374"
+    },
+    {
+      "type": "folder",
+      "title": "Enrolled students",
+      "conditions": "#Dokumente || #Einschreibung_Vorlesung || #Professor || #Prüfungen || #Systeme || #Termine || #Vorlesungsfach || #Vorlesungszeiten || #Vorlesungsraum || #Urlaubssemester",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1608545606530",
+      "previous_sibling": "node_7_1607785886857"
+    },
+    {
+      "type": "frame",
+      "title": "Vorlesungszeiten",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Vorlesungszeiten",
+      "dialog_node": "node_4_1608565052409",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1608564713561",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "General_Agent_Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich kann Ihnen zu vielen Fragen rund um den Masterstudiengang Digital Business Engineering helfen. Egal, ob Sie ein interessierter potentieller Student sind, der Fragen zum Bewerbrungsprozess hat oder wenn Sie ein immatrikulierter Student sind. \nBeispielsweise können Sie mich nach folgenden Themen fragen: \n- Studienkosten\n- NC\n- Vorlesungskalender\n- Vereinbarkeit mit einer Vollzeitbeschäftigung"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Was genau möchten Sie wissen ?",
+            "options": [
+              {
+                "label": "Wo finde ich Dokumente",
+                "value": {
+                  "input": {
+                    "text": "Dokumente"
+                  }
+                }
+              },
+              {
+                "label": "Wie kann ich mich für einen Kurs einschreiben",
+                "value": {
+                  "input": {
+                    "text": "Einschreibung"
+                  }
+                }
+              },
+              {
+                "label": "Welche Professoren sind am HHZ",
+                "value": {
+                  "input": {
+                    "text": "Professor"
+                  }
+                }
+              },
+              {
+                "label": "Wann sind die Prüfungen ",
+                "value": {
+                  "input": {
+                    "text": "Prüfungstermine"
+                  }
+                }
+              },
+              {
+                "label": "Welche Systeme stehen zur Verfügung",
+                "value": {
+                  "input": {
+                    "text": "Systeme"
+                  }
+                }
+              },
+              {
+                "label": "Informationen rund um alle Vorlesungsfächer",
+                "value": {
+                  "input": {
+                    "text": "Vorlesungsfach"
+                  }
+                }
+              },
+              {
+                "label": "Wann findet eine Vorlesung statt",
+                "value": {
+                  "input": {
+                    "text": "Vorlesungszeiten"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_4_1609779110508",
+      "previous_sibling": "node_7_1609778704370"
+    },
+    {
+      "type": "standard",
+      "title": "Anwesenheitspflicht",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es besteht $Pflicht. Bitte stimmen Sie sich zuvor mit den Dozenten ab. Eventuell sind hierbei auftretende Teilprüfungsleistungen zu klären. Für Prüfungen besteht Anwesenheitspflicht."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "context": {
+        "Pflicht": "keine allgemeine Anwesenheits- oder Präsenzpflicht"
+      },
+      "conditions": "@Termin:Anwesenheitspflicht",
+      "dialog_node": "node_5_1607787743832",
+      "previous_sibling": "node_10_1607787708049"
+    },
+    {
+      "type": "standard",
+      "title": "Aufbau",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Im 1. Semester sind folgende Fächer vorgesehen $Semester1. \nIm 2. Semester: $Semester2. \nDas 3. Semester $Semester3 . Diese Aufteilung ist nicht verpflichtend und kann frei eingeteilt werden. \nAllerdings gilt es zu beachten, welche Fächer nur jährlich angeboten werden. \nEine Übersicht der Inhalte finden Sie auf der <a  target=\"_blank\" href=$URL>Website</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1607788444416",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/",
+        "Semester1": "Entrepreneurship, Digital Business, Software Management, Distributed Systems und Projekt 1",
+        "Semester2": "Wahlfach 1, Business Process Management, Service Engineering, Artificial Intelligence und Projekt 2",
+        "Semester3": "weiteres Wahlfach und die Master-Thesis vorgesehen"
+      },
+      "conditions": "@Fach:Aufbau",
+      "dialog_node": "node_5_1607788645511",
+      "previous_sibling": "node_10_1607788601135"
+    },
+    {
+      "type": "standard",
+      "title": "Kalender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alle Termine stehen im Vorlesungskalender online auf der <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs. Sie können auch Alexa über \"Alexa, starte HHZ Assistant\" fragen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "@Termin:Termin",
+      "dialog_node": "node_6_1607787645530",
+      "previous_sibling": "node_8_1607787477038"
+    },
+    {
+      "type": "standard",
+      "title": "Parallel zu Vollzeitbeschäftigung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durch Blockveranstaltungen und flexible Gestaltung ist das Studium neben einer Berufstätigkeit möglich. Die Studenten nutzen verschiedene Möglichkeiten, um das Studium in den Arbeitsalltag zu integrieren: \nReduzierung der wöchentlichen Arbeitszeit, Abbau von Überstunden, Nutzen des gesetzlichen Uraubsanspruchs, Nutzen des Bildungsurlaubes (<a  target=\"_blank\" href=$URL>mehr Informationen</a>)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "context": {
+        "URL": "https://www.service-bw.de/leistung/-/sbw/Bildungszeit+beantragen-2317-leistung-0"
+      },
+      "conditions": "@Termin:Vollzeitbeschäftigung",
+      "dialog_node": "node_6_1607787846152",
+      "previous_sibling": "node_5_1607787743832"
+    },
+    {
+      "type": "standard",
+      "title": "Zielgruppe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Abschluss, die sich für die Gestaltung der digitalen Transformation und die neuen Entwicklungen im Bereich Software-und IT-Management begeistern \nund Professionals, die den nächsten Karriereschritt in der digitalen Transformation anstreben und berufsbegleitend studieren möchten."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Abschluss": "Bachelor-Absolventen"
+      },
+      "conditions": "@DBE:Zielgruppe",
+      "dialog_node": "node_6_1607790213923",
+      "previous_sibling": "node_10_1607790058225"
+    },
+    {
+      "type": "frame",
+      "title": "Systeme",
+      "parent": "node_4_1608545606530",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Systeme",
+      "dialog_node": "node_6_1608559129950",
+      "previous_sibling": "node_1_1608558998984"
+    },
+    {
+      "type": "standard",
+      "title": "Abschlussarbeit_Wintersemester",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Für das Wintersemester ist ein Bearbeitungszeitraum vom 01.08. bis 31.01. mit Abgabe zum 31.01. massgeblich. Die Anmeldung erfolgt über das <a  target=\"_blank\" href=\"https://www.reutlingen-university.de/im-studium/studium-organisieren/pruefungen/abschlussarbeit/\">Anmeldeformular Thesis</a>  welches beim Prüfungsbeauftragten einzureichen ist."
+              },
+              {
+                "text": "Alle weiteren Informationen zum Thema Abschlussarbeit finden Sie im <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/hsrt_informatik_DBE_ThesisLeitfaden.pdf\">Thesisleitfaden</a> Thesis-Leitfaden"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Semester:Wintersemester",
+      "dialog_node": "node_6_1608562566848",
+      "previous_sibling": "node_7_1608561953262"
+    },
+    {
+      "type": "standard",
+      "title": "Dekan",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Studiendekan ist derzeit $Dekan. Sie finden ihn vor Ort $Raum."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1607789105167",
+      "context": {
+        "Raum": "im Gebäude HHZ Böblingen, Raum 127/4",
+        "Dekan": "Professor Christian Decker"
+      },
+      "conditions": "@DBE:Dekan",
+      "dialog_node": "node_6_1609407941992",
+      "previous_sibling": "node_6_1607790213923"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alle Termine stehen im Vorlesungskalender online auf der <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs. Sie können auch Alexa über \"Alexa, starte HHZ Assistant\" fragen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "@Termine_enrolled:Vorlesungstermine",
+      "dialog_node": "node_6_1609954306472",
+      "previous_sibling": "node_1_1609769103049"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Vorlesungen der Uni Stuttgart werden einmal im Jahr angeboten. Informiere dich im Vorlesungskalender auf der Webseite des Studiengangs. Du kannst auch Alexa fragen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "conditions": "@Partner:(Universität Stuttgart)",
+      "dialog_node": "node_6_1613936431958",
+      "previous_sibling": "node_6_1607787846152"
+    },
+    {
+      "type": "standard",
+      "title": "Zulassungsbeschränkung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Für die Zulassung zum Studiengang Digital Business Engineering wird $NumerusClausus vorgegeben."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "NumerusClausus": "kein NC"
+      },
+      "conditions": "@Vorkenntnisse:NC",
+      "dialog_node": "node_7_1607353308766"
+    },
+    {
+      "type": "folder",
+      "title": "Informationsprozess",
+      "conditions": "#Infos_Ansprechpartner || #Infos_Equipment || #Infos_Hochschule || #Infos_Studentenausweis || #Infos_Studiengang || #Infos_Fächer || #Infos_Termine || #Promotion",
+      "dialog_node": "node_7_1607785886857",
+      "previous_sibling": "node_1_1607353492155"
+    },
+    {
+      "type": "standard",
+      "title": "Equipment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Folgende Ausrüstung ist zwingend erforderlich: $Equipment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "context": {
+        "Equipment": "Laptop"
+      },
+      "conditions": "@Equipment",
+      "dialog_node": "node_7_1607786594682"
+    },
+    {
+      "type": "standard",
+      "title": "Einschreibung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Einschreibung für eine Vorlesung erfolgt über Relax und hier finden Sie alle Kurse für die Sie sich bereits eingeschrieben haben. Relax ist die Online Lern- und Lehrplattform der Hochschule Reutlingen und dient auch als zentrale Kommunikationsplattform. Relax stellt Ihnen für jedes Modul die Unterlagen der Vorlesung bereit. Loggen Sie sich in Relax ein, suchen Sie den entsprechenden Kurs und schreiben Sie sich hierfür ein.\n"
+              },
+              {
+                "text": "Verwenden Sie zur Anmeldung bitte Ihre Benuterzdaten, die Sie auch für das Hochschul-Konto verwenden. "
+              },
+              {
+                "text": " <a  target=\"_blank\" href=\"https://relax.reutlingen-university.de/login/index.php\">Relax</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1608545606530",
+      "conditions": "#Einschreibung_Vorlesung",
+      "dialog_node": "node_7_1608557561143",
+      "previous_sibling": "node_3_1608556997488"
+    },
+    {
+      "type": "frame",
+      "title": "Prüfungsanmeldezeitraum",
+      "parent": "node_1_1608560258129",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "subject": "Prüfungsanmeldung"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Termine_enrolled:Prüfungsanmeldezeitraum",
+      "dialog_node": "node_7_1608561953262"
+    },
+    {
+      "type": "frame",
+      "title": "Vorlesungsfach",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.hhz.de/fileadmin/_processed_/3/9/csm_DBEModule_44ae9a5d1b.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Im <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/hsrt_informatik_DBE_modulhandbuch.pdf\">Modulhandbuch</a> werden alle Vorlesungsfächer des Studiengang Digital Business Engineering genauer beschrieben."
+              },
+              {
+                "text": "In einem weiteren Leitfaden sind alle <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/hsrt_informatik_DBE_modulhandbuch_wahlfaecher.pdf\">Wahlfächer</a>  beschrieben."
+              },
+              {
+                "text": "Im <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/hsrt_informatik_DBE_ProjektLeitfaden.pdf\">Projekt Leitfaden</a>  finden Sie alle Details rund um das Thema Projekt 1 und Projekt 2."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1608545606530",
+      "conditions": "#Vorlesungsfach",
+      "dialog_node": "node_7_1608564713561",
+      "previous_sibling": "node_1_1608560258129"
+    },
+    {
+      "type": "standard",
+      "title": "General human or bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich bin der chatbot Herman, der Assitent des Herman Hollerith Zentrums in Böblingen. Ich kann Ihnen bei allen Fragen zum Thema Masterstudiengang Digital Business Engineering helfen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_7_1609778704370",
+      "previous_sibling": "node_2_1609779756115"
+    },
+    {
+      "type": "frame",
+      "title": "Vorlesungszeiten Electives HHZ",
+      "output": {},
+      "parent": "node_4_1608545606530",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "elective": "$Fach"
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_7_1614622714644",
+      "previous_sibling": "node_1_1614620252130"
+    },
+    {
+      "type": "standard",
+      "title": "Berufstätigkeit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es wird $Vertrag benötigt, um eine Zulassung zu erhalten."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607353492155",
+      "context": {
+        "Vertrag": "kein Arbeitsvertrag"
+      },
+      "conditions": "@Vorkenntnisse:Arbeitsvertrag",
+      "dialog_node": "node_8_1607786462267",
+      "previous_sibling": "node_10_1607786131276"
+    },
+    {
+      "type": "standard",
+      "title": "Infos rund um das HHZ",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1607785886857",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@HHZ",
+      "dialog_node": "node_8_1607786753323",
+      "previous_sibling": "node_7_1607786594682"
+    },
+    {
+      "type": "standard",
+      "title": "Veranstaltungstage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es gibt $Anzahl feste Verantstaltungstage, die in Blöcken organisiert sind und an festen Wochentagen (keine samstage) stattfinden. Hinzu kommen verschiedene Meetings, die in Absprache mit den Professoren festgelegt werden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1607787284058",
+      "context": {
+        "Anzahl": "35"
+      },
+      "conditions": "@Termin:Veranstaltungstage",
+      "dialog_node": "node_8_1607787477038",
+      "previous_sibling": "node_1_1607787413849"
+    },
+    {
+      "type": "frame",
+      "title": "Rückmeldezeitraum",
+      "parent": "node_1_1608560258129",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "subject": "Rückmeldezeitraum"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Termine_enrolled:Rückmeldung",
+      "dialog_node": "node_8_1608563268123",
+      "previous_sibling": "node_3_1608563015487"
+    },
+    {
+      "type": "standard",
+      "title": "General positive feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es freut mich, dass ich Ihnen helfen konnte."
+              },
+              {
+                "text": "Gern geschehen, dafür bin ich hier."
+              },
+              {
+                "text": "Oh, das freut mich, dass ich helfen konnte."
+              },
+              {
+                "text": "Immer zu Diensten, ich helfe gerne."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1609778289834",
+      "previous_sibling": "node_9_1609780140985"
+    },
+    {
+      "type": "standard",
+      "title": "Semesterstart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Termin des Semesterstarts steht im Vorlesungskalender online auf der <a  target=\"_blank\" href=$URL>Website</a> des Studiengangs. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "context": {
+        "URL": "https://www.hhz.de/master/digital-business-engineering/"
+      },
+      "conditions": "@Termine_enrolled:Semesterstart",
+      "dialog_node": "node_8_1610035060489",
+      "previous_sibling": "node_6_1609954306472"
+    },
+    {
+      "type": "standard",
+      "title": "Infoquelle",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sie können sich über die <a target=\"_blank\" href=\" https://www.hhz.de/master/digital-business-engineering/\">Website</a> über das Studium informieren."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "conditions": "@Informationen:Anlaufstelle",
+      "dialog_node": "node_8_1613938332471",
+      "previous_sibling": "node_1_1609923791980"
+    },
+    {
+      "type": "standard",
+      "title": "Vorlesungen und Prüfungen",
+      "parent": "node_7_1607785886857",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Fach || @Wahlfach",
+      "dialog_node": "node_9_1607788444416",
+      "previous_sibling": "node_4_1607787284058"
+    },
+    {
+      "type": "standard",
+      "title": "Studentenausweis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HHZ Studierende können mit dem Studi-Ausweis im VVS fahren und das VVS StudiTicket erwerben (kein Anschlussticket notwendig).  <a  target=\"_blank\" href=$URL>Weitere Infos</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1607785886857",
+      "context": {
+        "URL": "https://www.vvs.de/tickets/weitere-tickets-und-regelungen/studierendenausweis-vvs-ticket/"
+      },
+      "conditions": "@Studentenausweis",
+      "dialog_node": "node_9_1607790283957",
+      "previous_sibling": "node_3_1607789105167"
+    },
+    {
+      "type": "standard",
+      "title": "General_Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo lieber Besucher, ich bin Herman. Heute ist ein sehr guter Tag für viele Fragen. Ich lerne noch täglich neues und bin neugierig auf deine Fragen. Wie kann ich Ihnen heute helfen ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1609780140985",
+      "previous_sibling": "Willkommen"
+    },
+    {
+      "type": "standard",
+      "title": "Beschreibung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das HHZ ist ein Lehr- und Forschungszentrum der Fakultät Informatik der Hochschule Reutlingen in Böblingen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1607786753323",
+      "conditions": "@HHZ:Beschreibung",
+      "dialog_node": "node_9_1610038179579",
+      "previous_sibling": "node_3_1607786958788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Im <a  target=\"_blank\" href=\"https://hisinone.reutlingen-university.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?chco=y\">Campus-PoRTal (HisInone)</a>  können Sie selbst Ihre Immatrikulationsbescheinigung, BAföG- oder weitere Bescheinigungen ausdrucken und sich für das neue Semester rückmelden. Auch Adresse, Telefonnummer und E-Mail können über das Portal geändert werden."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1608559129950",
+      "conditions": "@Systeme:HisInone",
+      "dialog_node": "response_10_1608559304613",
+      "previous_sibling": "response_6_1608559276933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die <a  target=\"_blank\" href=\"https://calendar.google.com/calendar/embed?src=9fbtqhp79a3oqvq6v0ur434j2s%40group.calendar.google.com&ctz=Europe/Berlin\">Prüfungstermine</a>  stehen alle im Vorlesungskalender online auf der Webseite des Studiengangs. Zu jedem Fach steht dann jeweils bei einem Vorlesungstermin nach der Fachbezeichnung, der Professof und dann \"Prüfung\" an den jeweiligen Tagen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Termine_enrolled:Klausurtermine || @Termine_enrolled:Prüfung || @Termine_enrolled:Prüfungstermine && @Fach_enrolled",
+      "dialog_node": "response_10_1608560686480",
+      "previous_sibling": "node_8_1610035060489"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "...oops an error occured..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1608563268123",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1608563322582",
+      "previous_sibling": "response_4_1608563321868"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hier finden Sie das <a  target=\"_blank\" href=\"https://www.reutlingen-university.de/im-studium/studium-organisieren/pruefungen/abschlussarbeit/\">Anmeldeformular Thesis</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1608556997488",
+      "conditions": "@Dokumente:Anmeldeformular",
+      "dialog_node": "response_10_1609702694231",
+      "previous_sibling": "response_9_1608566987669"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_5.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1614622714644",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_11_1614622714648",
+      "previous_sibling": "slot_8_1614622714648"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Notenübersicht oder den Notenspiegel erhalten Sie online im <a  target=\"_blank\" href=\"https://www.hip.reutlingen-university.de\">HIP Portal</a> der HS Reutlingen zum runterladen und ausdrucken."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1608556997488",
+      "conditions": "@Dokumente:Notenübersicht || @Dokumente:Notenspiegel || @Dokumente:Leistungsnachweis",
+      "dialog_node": "response_1_1608557406588",
+      "previous_sibling": "slot_9_1609839360470"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.hhz.de/fileadmin/_processed_/1/8/csm_Juergen_Muench_dc195af3cb.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#juergen-muench\">Professor Münch</a>  hält die Vorlesung Entrepreneurship und einen Teil der Software Management Vorlesung."
+              },
+              {
+                "text": "Sie finden ihn im Raum 127/2 am HHZ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Münch",
+      "dialog_node": "response_1_1608558512768",
+      "previous_sibling": "response_8_1608558471073"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.hhz.de/fileadmin/_processed_/3/1/csm_Decker_Christian_1b16006598.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#christian-decker\">Professor Decker</a>  hält die Vorlesungen: Internet of Things und Project 1 und 2. Er ist ausserdem der Studiendekan des Studiengangs DBE und somit der Ansprechpartner für alle Studierenden."
+              },
+              {
+                "text": "Sie finden ihn im Raum 127/4 am HHZ."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Decker",
+      "dialog_node": "response_1_1608558742998",
+      "previous_sibling": "response_2_1608558553058"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Relax ist die Online Lern- und Lehrplattform der Hochschule Reutlingen und dient auch als zentrale Kommunikationsplattform der Fakultät. Alle Lehrangebote (Vorlesungen, Seminare, Projekte, Wahlpflichtfächer etc.) sind als Kurse angelegt. Bitte tragen Sie sich eine Woche vor Vorlesungsbeginn in die von Ihnen besuchten Veranstaltungen ein. Im RELAX-Kurs zu ihrer Veranstaltung finden Sie ggf. Downloads und aktuelle Informationen zu ihrer Veranstaltung. Außerdem werden Sie so direkt informiert, wenn ihre Veranstaltung ausfällt oder verschoben wird. "
+              },
+              {
+                "text": "Eine separate Registrierung für RELAX ist an der Hochschule Reutlingen nicht notwendig. Verwenden Sie zur Anmeldung bitte Ihre Benuterzdaten, die Sie auch für das Hochschul-Konto verwenden. "
+              },
+              {
+                "text": "<a  target=\"_blank\" href=\"https://relax.reutlingen-university.de/login/index.php\">Relax</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1608559129950",
+      "conditions": "@Systeme:Relax",
+      "dialog_node": "response_1_1608559176288",
+      "previous_sibling": "slot_5_1609840432102"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "ooops, an error ocurred..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1614622714644",
+      "conditions": "anything_else",
+      "dialog_node": "response_12_1614622714648",
+      "previous_sibling": "response_11_1614622714648"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das HHZ ist ein Lehr- und Forschungszentrum der Fakultät Informatik der Hochschule Reutlingen in Böblingen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1607786753323",
+      "disabled": true,
+      "dialog_node": "response_2_1608482134865"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.hhz.de/fileadmin/_processed_/6/7/csm_AlexanderRossmannLight_845d5504ef.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#alexander-rossmann\">Professor Rossmann</a>  hält die Vorlesung Artificial Intelligence  und ist der Leiter des HHZ."
+              },
+              {
+                "text": "Sie finden ihn im Raum 105 am HHZ."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Rossmann",
+      "dialog_node": "response_2_1608558553058",
+      "previous_sibling": "response_1_1608558512768"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Die Termine für die Abschluss- oder Masterarbeit hängen davon ab in welchem Semester Sie diese schreiben:",
+            "options": [
+              {
+                "label": "Wintersemester",
+                "value": {
+                  "input": {
+                    "text": "Wintersemester"
+                  }
+                }
+              },
+              {
+                "label": "Sommersemester",
+                "value": {
+                  "input": {
+                    "text": "Sommersemester"
+                  }
+                }
+              }
+            ],
+            "description": "Wintersemester",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Termine_enrolled:Abschlussarbeit || @Termine_enrolled:Masterarbeit",
+      "dialog_node": "response_2_1608561382966",
+      "previous_sibling": "response_10_1608560686480"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_7_1608561953262",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1608561984399",
+      "previous_sibling": "response_6_1608561983761"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ich konnte nicht auf den Kalender zugreifen. Versuche es später noch einmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1614623644657",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1614623712955",
+      "previous_sibling": "response_5_1614623711586"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.hhz.de/fileadmin/_migrated/tt_address/Personen_Alfred_Zimmermann_120-180.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#alfred-zimmermann\">Professor Zimmermann</a>  hält die Vorlesungen: Software Management und Scientific Publishing. Er ist der Forschungsdirektor des Herman Hollerith Zentrums Böblingen und Koordinator der Forschung der Fakultät Informatik. Professor Zimmermann betreut Doktoranden in gemeinsamen Forschungsprogrammen mit Universitäten wie Leipzig, Rostock, Stuttgart und Tübingen. "
+              },
+              {
+                "text": "Sie finden ihn in Raum 119 am HHZ."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Zimmermann",
+      "dialog_node": "response_3_1608558172413",
+      "previous_sibling": "slot_2_1608558172698"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.hhz.de/das-hhz/professoren/#dieter-hertweck\">Professor Hertweck</a>  hält die Vorlesungen: Digital Business und Service Engineering."
+              },
+              {
+                "text": "Sie finden ihn im Raum 127/3 am HHZ."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Hertweck",
+      "dialog_node": "response_3_1608558389034",
+      "previous_sibling": "response_3_1608558172413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Rückmeldezeitraum laut Vorlesungskalender ist:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1608563268123"
+      },
+      "conditions": "@Termine_enrolled:Rückmeldung",
+      "dialog_node": "response_3_1608563128658",
+      "previous_sibling": "response_8_1608561861235"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Die Prüfungsanmeldung erfolgt über das  <a  target=\"_blank\" href=\"https://www.hip.reutlingen-university.de/qisserver/rds?state=user&type=0\">Hochschulinformationsportal HIP</a>() innerhalb des Prüfungsanmeldezeitraum des jeweiligen Semester. Der Prüfungsanmeldezeitraum kann im Vorlesungskalender abgerufen werden oder fragen Sie mich danach. Eine Anmeldung muss unbedingt für alle Prüfungsleistungen unabhängig von der Prüfform an (z.B. Labor, Hausarbeit etc.), die Sie in diesem Semester an der Hochschule Reutlingen ablegen möchten! "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1608558998984",
+      "conditions": "@Prüfungen:Prüfungsanmeldung",
+      "dialog_node": "response_3_1608567707364",
+      "previous_sibling": "response_9_1608567707208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1609693740617",
+      "conditions": "$action_result_5",
+      "dialog_node": "response_3_1609693840598"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_2.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1608563268123",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_4_1608563321868"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verschaffen Sie sich gleich einen genaueren Überblick über die aktuellen Forschungsthemen bei den öffentlichen <a  target=\"_blank href=\"https://publikationen.reutlingen-university.de/solrsearch/index/search/searchtype/collection/id/16230/\">Link: Publikationen </a> des HHZs"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1609923791980",
+      "conditions": "@Promotion:Publikationen",
+      "dialog_node": "response_4_1609924840299",
+      "previous_sibling": "response_8_1609924796689"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es gibt aktuell die folgende Prüfungsformen: Klausur, Referat, Hausarbeit, Projektarbeit, Praktikum und Master-Thesis. Die Zuordnung, welche Form für welches Fach zum Einsatz kommt, wieviele ECTS Punkte man dafür bekommt und alle weiteren Fragen Rund um das Thema Prüfungen finden Sie in der jeweils geltenden"
+              },
+              {
+                "text": " <a  target=\"_blank\" href=\"https://www.hhz.de/fileadmin/user_upload/Hermann_Hollerith_Zentrum/Master/Digital_Business_Engineering/20190226_DBE_StuPrO..pdf>Studien- und Prüfungsordnung</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1608558998984",
+      "conditions": "@Prüfungen:Prüfungsordnung || @Prüfungen:Prüfungsinformationen",
+      "dialog_node": "response_4_1611071201217",
+      "previous_sibling": "response_3_1608567707364"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1608565052409",
+      "dialog_node": "response_4_1614626157350"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hier geht es zum <a  target=\"_blank\" href=\"https://calendar.google.com/calendar/u/0/embed?src=9fbtqhp79a3oqvq6v0ur434j2s@group.calendar.google.com&ctz=Europe/Berlin&pli=1\">Vorlesungskalender</a> . "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1608559129950",
+      "conditions": "@Systeme:Vorlesungskalender",
+      "dialog_node": "response_5_1608559235162",
+      "previous_sibling": "response_1_1608559176288"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_5.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1614620252130",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_5_1614620252136",
+      "previous_sibling": "slot_2_1614620252136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614623644657",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1614623711586",
+      "previous_sibling": "slot_5_1614623712049"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_6.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614624055131",
+      "conditions": "$webhook_result_6",
+      "dialog_node": "response_5_1614624055133",
+      "previous_sibling": "slot_2_1614624055133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_7.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614626482099",
+      "conditions": "$webhook_result_7",
+      "dialog_node": "response_5_1614626482101",
+      "previous_sibling": "slot_8_1614626548650"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.iaas.uni-stuttgart.de/img/ma2.jpg?__scale=w:220,h:220,cx:0,cy:106,cw:427,ch:427",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.iaas.uni-stuttgart.de/institut/team/Aiello-00001/\">Professor Aiello</a>  hält die Vorlesung Distributed Systems an der Universität Stuttgart."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Aiello",
+      "dialog_node": "response_6_1608558427464",
+      "previous_sibling": "response_3_1608558389034"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Im <a  target=\"_blank\" href=\"https://www.hip.reutlingen-university.de/qisserver/rds?state=user&type=0\">Hochschul-Informations-Portal (HIP)</a>  können Sie die Prüfungsanmeldung vornehmen und dort jederzeit Ihre Noten abrufen. Auch der Ausdruck eines Semester-Transcripts ist möglich."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1608559129950",
+      "conditions": "@Systeme:HIP",
+      "dialog_node": "response_6_1608559276933",
+      "previous_sibling": "response_5_1608559235162"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1608561953262",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_6_1608561983761"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "...uuups, hat nicht geklappt..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1609693740617",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1609693841315",
+      "previous_sibling": "response_3_1609693840598"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "...oops an error occured..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1609769103049",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1609769143433",
+      "previous_sibling": "response_9_1609769142665"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dokumente zu den besuchten Fächern finden Sie auf <a  target=\"_blank\" href=\"https://relax.reutlingen-university.de/login/index.php\">RELAX</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1608556997488",
+      "conditions": "@Dokumente:Fach",
+      "dialog_node": "response_6_1613929674682",
+      "previous_sibling": "response_10_1609702694231"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Kalender wird rechtzeitig vor Semesterbeginn online bereitgestellt: <a  target=\"_blank\" href=\"https://calendar.google.com/calendar/u/0/embed?src=9fbtqhp79a3oqvq6v0ur434j2s@group.calendar.google.com&ctz=Europe/Berlin&pli=1\">Kalender</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Termine_enrolled:Kalender",
+      "dialog_node": "response_6_1613936020008",
+      "previous_sibling": "response_9_1609768945277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "ooops, an error ocurred..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1614620252130",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1614620252136",
+      "previous_sibling": "response_5_1614620252136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ich konnte nicht auf den Kalender zugreifen. Versuche es später noch einmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1614624055131",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1614624055133",
+      "previous_sibling": "response_5_1614624055133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ich konnte nicht auf den Kalender zugreifen. Versuche es später noch einmal"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1614626482099",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1614626482101",
+      "previous_sibling": "response_5_1614626482101"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informationen zu Forschungsgruppen, Forschungsgebiete und Kooperationen mit dem HHZ finden sie <a  target=\"_blank href=\"https://www.hhz.de/de/forschung/forschungsgruppen/\"> hier: Link </a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1609923791980",
+      "conditions": "@Promotion:Forschungsgruppen",
+      "dialog_node": "response_7_1609924955446",
+      "previous_sibling": "response_4_1609924840299"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.iaas.uni-stuttgart.de/img/fleymann.jpg?__scale=w:220,h:220,cx:0,cy:166,cw:1213,ch:1213",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"https://www.iaas.uni-stuttgart.de/institut/team/Leymann/\">Professor Leymann</a>  hält die Vorlesung Business Process Management an der Universität Stuttgart."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1608557785000",
+      "conditions": "@Professor:Leymann",
+      "dialog_node": "response_8_1608558471073",
+      "previous_sibling": "response_6_1608558427464"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Folgender Prüfungsanmeldezeitraum steht im Vorlesungskalender:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1608561953262"
+      },
+      "conditions": "@Termine_enrolled:Prüfungsanmeldezeitraum",
+      "dialog_node": "response_8_1608561861235",
+      "previous_sibling": "response_2_1608561382966"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Möchtest du <a  target=\"_blank\" href=\"https://calendar.google.com/calendar/u/0/embed?src=9fbtqhp79a3oqvq6v0ur434j2s@group.calendar.google.com&ctz=Europe/Berlin&pli=1\">alle Vorlesungstermine</a>  im Überblick sehen, dann rufe den kompletten Vorlesungskalender online auf."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "conditions": "@Termine_enrolled:Vorlesungstermine",
+      "dialog_node": "response_8_1608563741354",
+      "previous_sibling": "response_3_1608563128658"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aktuelle Infos zu den Promotionsprogrammen finden Sie hier, <a  target=\"_blank href=\"https://www.hhz.de/de/forschung/promotionsprogramm/\">Link: Promotionsprogramm</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1609923791980",
+      "conditions": "@Promotion:Promotionsprogramm",
+      "dialog_node": "response_8_1609924796689",
+      "previous_sibling": "slot_3_1609924514086"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eine Immatrikulationsbescheinigung oder eine Erweiterte Studienbescheinigung (BAföG) kann man online über das  <a  target=\"_blank\" href=\"https://hisinone.reutlingen-university.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?chco=y\">Campus Portal</a> der HS Reutlingen runterladen und ausdrucken."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1608556997488",
+      "conditions": "@Dokumente:(BAföG Bescheinigung) ||  @Dokumente:(erweiterte Studienbescheinigung) || @Dokumente:Immatrikulationsbescheinigung",
+      "dialog_node": "response_9_1608566987669",
+      "previous_sibling": "response_1_1608557406588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Eine Abmeldung von einer Prüfung, die nicht abgelegt wird ist notwendig. Es hilft bei der Planung der Prüfung und vermeidet Missverständnisse. Außerdem ist es ein guter Stil. Abmeldungen können entweder über das <a  target=\"_blank\" href=\"https://www.hip.reutlingen-university.de/qisserver/rds?state=user&type=0\">Hochschulinformationsportal</a>  vorgenommen werden oder per mail an den entsprechenden Professor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1608558998984",
+      "conditions": "@Prüfungen:Prüfungsabmeldung",
+      "dialog_node": "response_9_1608567707208",
+      "previous_sibling": "slot_4_1611076245590"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Projekttag steht im Vorlesungskalender. Der nächste Projekttag ist: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1608560258129",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1609769103049"
+      },
+      "conditions": "@Termine_enrolled:Projekttag",
+      "dialog_node": "response_9_1609768945277",
+      "previous_sibling": "response_8_1608563741354"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_5.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1609769103049",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_9_1609769142665"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1609779110508",
+      "variable": "$Vorlesungsfach",
+      "dialog_node": "slot_10_1610484056418"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1608557785000",
+      "variable": "$Professor",
+      "dialog_node": "slot_2_1608558172698"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1614620252130",
+      "variable": "$Fach",
+      "dialog_node": "slot_2_1614620252136"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1614624055131",
+      "variable": "$Electives_hhz",
+      "dialog_node": "slot_2_1614624055133"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1609923791980",
+      "variable": "$Promotion",
+      "dialog_node": "slot_3_1609924514086"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1608558998984",
+      "variable": "$Pruefungen",
+      "dialog_node": "slot_4_1611076245590"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1608559129950",
+      "variable": "$Systeme",
+      "dialog_node": "slot_5_1609840432102"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1614623644657",
+      "variable": "$Fach",
+      "dialog_node": "slot_5_1614623712049"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1608565052409",
+      "variable": "$Fach",
+      "dialog_node": "slot_5_1614624968903",
+      "previous_sibling": "response_4_1614626157350"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1614622714644",
+      "variable": "$Fach",
+      "dialog_node": "slot_8_1614622714648"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1614626482099",
+      "variable": "$Electives_stgt",
+      "dialog_node": "slot_8_1614626548650"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1608556997488",
+      "variable": "$Dokumente",
+      "dialog_node": "slot_9_1609839360470"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1608565052409",
+      "variable": "$Electives_hhz",
+      "dialog_node": "slot_9_1614624994353",
+      "previous_sibling": "slot_5_1614624968903"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1608565052409",
+      "variable": "$Electives_stgt",
+      "dialog_node": "slot_9_1614626295320",
+      "previous_sibling": "slot_9_1614624994353"
+    },
+    {
+      "type": "standard",
+      "title": "Willkommen",
+      "output": {
+        "generic": [
+          {
+            "source": "https://gitlab.reutlingen-university.de/dietrics/watson-hermann-assistent/-/wikis/uploads/cb2d76ca1ef7c4568b1830f7b912285f/herman_hhz.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hallo, ich bin Herman, Assistent des Herman Hollerith Zentrums. Wie kann ich Ihnen helfen?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #AlexaStart || #Begrüßung",
+      "dialog_node": "Willkommen"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Meinten Sie:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nichts von dem oben genannten"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Meinten Sie:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "hhz_assistant_merged version",
+  "language": "de",
+  "description": "gemerged von Sabine am 21.12.2020"
+}
